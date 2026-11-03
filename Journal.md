@@ -6,3 +6,6 @@ Created a common interface for a remote item and proxy to share, created the rem
 
 Phase 2-
 Created a Virtual proxy that lazy loads into the RealMedia object in upon request instead of loading at the creation of the proxy. The remote proxy that establishes and manages a connection to a remote location, and the Virtual proxy can wait to load the object that it is proxying untill it is needed to save resources. The only problem with the Lazy loading is the Virtual proxy will most likely need full knowlege of what is needed to instantiate the object when needed, this could be done with read from disk but in this case I hardcoded. 
+
+Phase 3-
+Code written works as intended. Didn't really run into any bugs afterwards, I hashed everything out initally. 
